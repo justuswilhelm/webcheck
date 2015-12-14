@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+require "net/http"
+require "webcheck"
+
+# Load paths with corresponding doc url
+# Nifty solution from http://stackoverflow.com/a/10083594
+host = get_host_argv
+check_host host
+issues = count_issues host
+summary issues

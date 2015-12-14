@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    webcheck (0.0.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    colorize (0.7.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  colorize (= 0.7.7)
+  webcheck!
+
+BUNDLED WITH
+   1.10.6
